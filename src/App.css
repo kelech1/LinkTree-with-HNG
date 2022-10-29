@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+.App {
+  text-align: center;
+  padding: 2em 3vw 0;
+}
+#slack{
+  display: none;
+}
+
+.links > *{
+  display: block;
+}
+.socials img{
+  margin: 0 2em;
+}
+
+.profile__img{
+  background-image: url('../src/icons/camera.png');
+  background-color: rgba(52, 64, 84, 0.75);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 88px 88px;
+  width: 88px;
+  height: 88px;
+  border-radius: 275px;
+  
+ 
+}
+.profile__img:hover{
+  opacity: 0.5;
+  transition: ease-in;
+  transition-duration: 0.35s;
+  
+  
+  
+}
+
+
+header{
+  position: relative;
+}
+h3{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  color: #101828;
+}
+button{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 5vw;
+
+}
+
+a{
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-decoration: none;
+  color: inherit;
+  background-color: #EAECF0;
+  margin: 24px 0;
+  padding: 24px 32px;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+
+}
+a:hover{
+  background-color: #D0D5DD;
+}
+.footer{
+  display: none;
+
+}
+@media screen and (min-width: 1200px) {
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #667085;
+    padding: 2em 0 1em;
+    align-items: center;
+    margin-top: 1em;
+  }
+  #vector{
+    height: 24.73708152770996px;
+    width: 185.0301055908203px;
+  }
+  #i4g{
+    height: 32px;
+    width: 132.1290283203125px;
+  }
+  footer p{
+    color: #667085;;
+  }
+  button{
+    right: 20vw;
+  }
+  
+}

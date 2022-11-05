@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
 
+
 .App {
   text-align: center;
   padding: 2em 3vw 0;
-}
-#slack{
-  display: none;
+  font-family: 'Inter','Nunito Sans', sans-serif;
 }
 
-.links > *{
-  display: block;
-}
-.socials img{
-  margin: 0 2em;
-}
+button{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 5vw;
 
+}
 .profile__img{
   background-color: rgba(52, 64, 84, 0.75);
   background-repeat: no-repeat;
@@ -29,34 +30,8 @@
 .profile__img:hover{
   opacity: 0.5;
   transition: ease-in;
-  transition-duration: 0.35s;
-  
-  
-  
+  transition-duration: 0.1s;
 }
-
-
-header{
-  position: relative;
-}
-h3{
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-
-  color: #101828;
-}
-button{
-  outline: none;
-  border: none;
-  background-color: transparent;
-  position: absolute;
-  top: 0;
-  right: 5vw;
-
-}
-
 a{
 
   font-family: Inter;
@@ -77,32 +52,4 @@ a{
 a:hover{
   background-color: #D0D5DD;
 }
-.footer{
-  display: none;
 
-}
-@media screen and (min-width: 1200px) {
-  .footer{
-    display: flex;
-    justify-content: space-evenly;
-    border-top: 1px solid #667085;
-    padding: 2em 0 1em;
-    align-items: center;
-    margin-top: 1em;
-  }
-  #vector{
-    height: 24spx;
-    width: 185px;
-  }
-  #i4g{
-    height: 32px;
-    width: 132px;
-  }
-  footer p{
-    color: #667085;;
-  }
-  button{
-    right: 20vw;
-  }
-  
-}

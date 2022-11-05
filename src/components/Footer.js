@@ -1,4 +1,5 @@
 import React from 'react'
+import './footer.css'
 
 import i4g from './icons/I4G.png'
 import vector from './icons/Zuri.png'

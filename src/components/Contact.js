@@ -1,6 +1,5 @@
 import {React, useState} from 'react'
 import './contact.css'
-import Footer from './Footer'
 
 function Contact() {
   const name = "Kelechi Henry"
@@ -20,7 +19,7 @@ function Contact() {
     <div className='contact-me'>
         <h2>Contact Me</h2>
         <p>Hi there, contact me to ask me about anything you have in mind.</p>
-        <form className='form'>
+        <form className='form' >
             <div className='first'>
                 <label>First Name</label>
                 <input id="first_name" name='first' type="text" required placeholder='Enter your first name' onBlur={handleFocus} focused={blur['first'].toString()}/>
@@ -52,7 +51,6 @@ function Contact() {
             
         </form>
 
-        <Footer />
     </div>
   )
 }

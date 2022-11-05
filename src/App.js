@@ -1,5 +1,6 @@
 import './App.css';
 import { Homepage } from './components/Homepage';
+import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Errorpage from './components/Errorpage';
 // eslint-disable-next-line no-unused-vars
@@ -13,6 +14,7 @@ function App() {
         <Route exact path='/Contact' element={<Contact />} />
         <Route exact path='/Errorpage' element={<Errorpage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

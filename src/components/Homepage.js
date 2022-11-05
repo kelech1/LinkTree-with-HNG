@@ -4,7 +4,6 @@ import github from './icons/github.png'
 import share from './icons/share.png'
 
 import './homepage.css'
-import Footer from './Footer'
 import { Link } from 'react-router-dom'
 
 export const Homepage = () => {
@@ -50,7 +49,6 @@ export const Homepage = () => {
         <img src={github} alt="icons"/>        
       </div>
     </main>
-    <Footer />
   </div>
   )
 }

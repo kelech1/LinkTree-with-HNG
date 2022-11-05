@@ -16,7 +16,6 @@
 }
 
 .profile__img{
-  background-image: url('../src/icons/camera.png');
   background-color: rgba(52, 64, 84, 0.75);
   background-repeat: no-repeat;
   background-position: top;
@@ -92,12 +91,12 @@ a:hover{
     margin-top: 1em;
   }
   #vector{
-    height: 24.73708152770996px;
-    width: 185.0301055908203px;
+    height: 24spx;
+    width: 185px;
   }
   #i4g{
     height: 32px;
-    width: 132.1290283203125px;
+    width: 132px;
   }
   footer p{
     color: #667085;;

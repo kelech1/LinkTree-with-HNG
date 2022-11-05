@@ -1,22 +1,20 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 
 
-const errorPage = () => {
+const Errorpage = () => {
     return (
     <>
-        <div className="not-found">
+        <div className="Error-page">
             <h4>404 error</h4>
             <h1>We can't find that page</h1>
             <p>Sorry, the page you are looking for doesn't exist.</p>
-            <div className='go-home' as={Link} to='../'>
-            Go Home
-            </div>
+            <Navigate to={'./Homepage'}>Go Home</Navigate>
         </div>
         
     </>
     );
 };
 
-export default errorPage;
+export default Errorpage;
